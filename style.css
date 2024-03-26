@@ -1,0 +1,931 @@
+@import url(https://db.onlinewebfonts.com/c/482d2240a4a806136792f20b5972e3d9?family=Avant+Garde+Bold);
+@import url('https://fonts.cdnfonts.com/css/avantgarde-bk-bt-2');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/trade-gothic-lt-std');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#101010;
+}
+.navigation{
+    width: 100%;
+    height: 170px;
+    background-color:#000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 180px;
+    padding-right: 180px;
+
+  
+.logo{
+    font-family: 'AvantGarde Bk BT', sans-serif;
+   font-weight: 700;
+    color: white;
+    font-size: 34px;
+}
+}
+.navs{
+  display: flex;
+  gap: 30px;
+  color: #fff;
+  list-style: none;
+  font-family: "Avant Garde Bold";
+  font-size: 16px;
+.u-line{
+    position: relative;
+    cursor: pointer;
+}
+.u-line::before{
+    content: "";
+    width:0px;
+    background-color: #e9204f;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.u-line:hover::before{
+    width: 100%;
+    
+}
+
+  
+}
+.bd{
+    position: relative;
+    background-color:black;
+    height: 1131px;
+    width: 100%;
+.picture {
+    position: absolute;
+    top: 0px;
+  right:200px;
+img{ 
+    width: 700px;}
+}
+.covertext{
+    margin-left: 20px;
+    position:absolute;
+    left:140px;
+    top: 100px;
+    width: 700px;
+ div{width: 70px;
+    margin-bottom: 60px;
+    height: 3px;
+    background-color:#e9204f ;}
+ 
+h1{
+    font-size:78px;
+    color: #fff;
+    font-family: "Avant Garde Bold";
+    font-weight: 800;
+    line-height: 80px;
+    margin-bottom: 60px;
+} 
+.button{
+    position: relative;
+    width: 190px;
+    height: 59px;
+    border-style: solid;
+    position: relative;
+    border-color: #e9204f;
+    padding: 20px 50px;
+    color:#fff;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    cursor: pointer;  
+}
+.button::before{
+      content: "";
+      background-color: #e9204f;
+      opacity: 0.6;
+      height: 59px;
+      width: 0px;
+      position: absolute;
+      bottom: -2px;
+      left: -1px;
+      transition:0.5s ;
+      -webkit-transition:0.5s ;
+      -moz-transition:0.5s ;
+      -ms-transition:0.5s ;
+      -o-transition:0.5s ;
+}
+.button:hover::before{
+width: 190px;
+}
+}
+}
+.section3back{
+    height: 70px;
+    width: 400px;
+   background-color: #e9204f;
+    position: absolute;
+    bottom: -20px;
+    right:139px ;  
+}
+.miniline{
+    width: 2px;
+    height: 60px;
+    background-color: #e9204f;
+    position: absolute;
+    left: 50%;
+    bottom:-30px;
+}
+.section{
+    width: 1260px;
+    height: 455px;
+    display: flex;
+    gap: 35px;
+    position: absolute;
+    bottom: 0px;
+    left: 140px;
+.section1, .section2, .section3{
+    width: 380px;
+    height: 385px;
+    margin-top:70px ;
+   
+}
+.section1{
+    background-color: #e9204f;
+   margin-left:10px;
+   cursor: pointer;
+i{
+    font-size: 48px;
+    color: #fff;
+    padding: 60px 40px;
+}
+h3{
+    font-size: 24px;
+    color: #fff;
+    font-family: "Avant Garde Bold";
+    padding-left:40px ;
+}
+p{
+    font-family: 'Trade Gothic LT Std', sans-serif;
+    color: #fff;
+    font-size: 17px;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 20px;
+}
+hr{
+    width: 40px;
+    height: 2px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+}
+.section2{
+    background-color:#1B1B1B;
+    padding-left: 40px;
+    cursor: pointer;
+    i{
+        font-size: 48px;
+        color:#e9204f;
+       padding-top: 60px;
+       padding-bottom: 60px;
+    }
+    h3{
+        font-size: 24px;
+        color: #fff;
+        font-family: "Avant Garde Bold";
+       
+    }
+    p{
+        font-family: 'Trade Gothic LT Std', sans-serif;
+        color: #fff;
+        font-size: 17px;
+       padding-right: 40px;
+       padding-top: 20px;
+    }
+hr{
+    width: 40px;
+    height: 2px;
+    margin-top: 10px;
+
+}
+}
+.section2:hover{
+        background-color: #e9204f;
+}
+.section3{
+    background-color:#1B1B1B;
+    padding-left: 40px;
+    cursor: pointer;
+    i{
+        font-size: 48px;
+        color:#e9204f;
+       padding-top: 60px;
+       padding-bottom: 60px;
+    }
+    h3{
+        font-size: 24px;
+        color: #fff;
+        font-family: "Avant Garde Bold";
+       
+    }
+    p{
+        font-family: 'Trade Gothic LT Std', sans-serif;
+        color: #fff;
+        font-size: 17px;
+       padding-right: 40px;
+       padding-top: 20px;
+    }
+hr{
+    width: 40px;
+    height: 2px;
+    margin-top: 10px;
+
+}
+}
+}
+.section3:hover{
+    background-color: #e9204f;
+}
+.section2,.section3{
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.services{
+    width: 600px;
+    height: 145px;
+    margin-top: 140px;
+     margin-left:147px ;
+div{
+background-color: #e9204f;
+width: 40px;
+height: 2px;
+}
+h2{
+    font-size: 48px;
+    color: #fff;
+    font-family: "Avant Garde Bold";
+    padding-top: 35px;
+}
+h3{
+    font-family: 'Trade Gothic LT Std', sans-serif;
+    font-size: 18px;
+    color: #e9204f;
+    padding-top: 20px;
+}
+}
+.consept{
+    width: 1290px;
+    height:402px;
+     margin: 60px auto 140px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 35px;
+     padding: 0px 30px;
+     div{
+        background-color:  #1B1B1B;
+        width:380px ;
+        height: 104px;
+        padding: 40px 30px;
+        color: #fff;
+        font-size: 19px;
+        font-family: 'AvantGarde Bk BT', sans-serif;
+       font-weight: 900;
+       
+        
+     }
+     div:hover{
+        background-color: #e9204f;
+        padding-left:60px ;
+     }
+     div{
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+}
+}
+.pictures, .pictures-1, .pictures3{
+    position: relative;
+    width: 1519px;
+    height: 1038px;
+    padding: 140px 0px;
+.head{ display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.midline{
+    background-color: #e9204f;
+    width: 2px;
+    height: 60px;
+    position:absolute;
+    left: 50%;
+    top: 5px;
+    
+
+}
+
+.headline, .headline2{
+    width: 570px;
+    height: 145px;
+    margin-left:147px ;
+    margin-bottom: 30px;
+    .hh{
+        background-color: #e9204f;
+        width: 40px;
+        height: 2px;
+    }
+h1{
+    color: #fff;
+    font-size: 48px;
+    font-family: "Avant Garde Bold";
+    margin-top: 30px;
+  
+}
+h2{
+    font-family: 'Trade Gothic LT Std', sans-serif;
+    font-size: 22px;
+    color: #e9204f;
+    padding-top: 20px;
+}
+}
+.button2{
+    width: 121px;
+    height: 49px;
+    margin-right: 156px;
+    border-style: solid;
+    border-color: #e9204f;
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 31px;
+    position: relative;
+    
+}
+.button2::before{
+    content: "";
+    height: 50px;
+    width: 0px;
+    background-color: #e9204f;
+    opacity: 0.6;
+    position: absolute;
+    bottom: -3px;
+    left: -3px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.button2:hover::before{
+    width: 121px; 
+}
+.picture-3,.pic-3{
+    display: flex;
+    gap: 26px;
+    margin-top: 20px;
+.pc1, .pc2, .pc3{
+    width:489px ;
+    height: 489px;
+    filter: grayscale();
+    -webkit-filter: grayscale();
+}
+.pc1{
+    background-image: url(images/03-min-1-1024x683.jpg);
+    background-position: center;
+    background-size: cover;
+    background-size: 1004px 663px;
+    transition:700ms;
+    color: transparent;
+    font-family: "Avant Garde Bold";
+    font-size: 35px;
+    padding-left: 110px;
+    padding-top: 250px;
+    cursor: pointer;
+
+ }
+.pc1:hover{
+    background-image: url(images/03-min-1-1024x683.jpg);
+    background-size:1064px 723px;
+    filter: none;
+    -webkit-filter: none;
+    opacity: 0.9;
+    color: #fff;
+    padding-left: 130px; 
+}
+.pc2{
+    background-image: url(images/04-min-1-1024x683.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-size: 1004px 663px;
+    transition:700ms;
+    color: transparent;
+    font-family: "Avant Garde Bold";
+    font-size: 35px;
+    padding-top: 250px;
+    padding-left: 155px;
+    cursor: pointer;
+}
+.pc2:hover{
+    background-image: url(images/04-min-1-1024x683.jpg);
+    background-size:1064px 723px;
+    filter: none;
+    -webkit-filter: none;
+    opacity: 0.9;
+    color: #fff;
+    padding-left: 170px;
+}
+.pc3{
+    background-image: url(images/07-min-1024x683.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-size: 1004px 663px;
+    transition:700ms;
+    color: transparent;
+    font-family: "Avant Garde Bold";
+    font-size: 35px;
+    padding-top: 250px;
+    padding-left: 80px;
+    cursor: pointer;
+}
+.pc3:hover{
+    background-image: url(images/07-min-1024x683.jpg);
+    background-size:1064px 723px;
+    filter: none;
+    -webkit-filter: none;
+    opacity: 0.9;
+    color: #fff;
+    padding-left: 110px;
+}
+}
+}
+.circle{
+    width: 250px;
+    height: 30px;
+   margin-left: 670px;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+i{
+    font-size: 12px;
+    color: #e9204f;
+    cursor: pointer;
+}
+i:hover{
+    color:#fff;   
+}
+}
+.about{
+    font-family: "Roboto Condensed", sans-serif;
+    color: #acacac;
+    width: 600px;
+    margin-right: 147px;
+}
+.aboutpicture{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 140px;
+    position: relative;
+}
+.uptext1, .uptext2, .uptext3{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Avant Garde Bold";
+    z-index: 1;
+}
+.uptext1{
+    bottom:50px;
+    left: 30px;
+}
+.uptext2{
+    bottom: 50px;
+    right:31%;
+}
+.uptext3{
+    top:35%;
+    right: 35%;
+}
+.firstpicture{
+    width: 769px;
+    height: 599px;
+    background-image: url(images/about_01.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale();
+    opacity: 0.6;
+    position: relative;
+    cursor: pointer;
+}
+.firstpicture:hover{
+    filter: none;
+   
+    -webkit-filter: none;
+}
+.secondlinepc{
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    height: 599px;
+.secondpicture{
+    width: 430px;
+    height: 280px;
+    background-image: url(images/about_03.jpg);
+    background-position:center;
+    background-size: cover; 
+    margin: 0px auto;
+    filter: grayscale();
+    opacity: 0.6;
+    position: relative;
+    
+}
+.secondpicture:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+.thirdpicture{
+    width: 430px;
+    height: 280px;
+    margin: 0px auto;
+    margin-top: 39px;
+    background-image: url(images/about_01.jpg);
+    background-position:center;
+    background-size: cover;
+    filter: grayscale();
+    opacity: 0.6;
+    position: relative;
+    cursor: pointer;   
+}
+.thirdpicture:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+}
+.elementor{
+    width: 1519px;
+    height: 312px;
+    padding: 0px 15px 140px;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    
+h1{
+    font-size: 22px;
+    font-family: "Avant Garde Bold";
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'Trade Gothic LT Std', sans-serif;
+    font-size: 17px; 
+    display: block;
+    width: 339px;
+    color:#acacac;
+    font-weight: 400;
+    line-height: 26px;
+}
+}
+.clientspicture{
+    width: 462px;
+    height: 621px;
+   background-image: url(images/client_02.jpg);
+   background-size: cover;
+    margin-left: 140px;
+}
+.squareback{
+    width: 100px;
+    height: 100px;
+    background-color: #e9204f;
+    position: absolute;
+    left: 34.3%;
+    bottom:117px;
+    z-index: -1;
+
+}
+.clientparaghrap{
+    width: 650px;
+    height: 621px;
+    margin-right: 200px;
+    padding-top: 40px;
+.headline2{
+   
+    margin-left: 0px;
+} 
+p{
+    font-size: 24px;
+    font-family: 'Trade Gothic LT Std', sans-serif;
+    color:#acacac;
+    line-height: 36px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 60px;
+} 
+.whiteline{
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+}
+h2{
+    font-size: 17px;
+    color: #fff;
+    font-family: "Roboto Condensed", sans-serif;
+    padding-top: 40px;
+}
+}
+.pictures-1{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 900px;
+}
+.firms{
+    width: 1200px;
+    height: 72px;
+    padding: 40px 0px 0px;
+    margin-left: 140px;
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid;
+    border-color: rgba(255, 255, 255, 0.08);
+    border-width: 1px;
+}
+.pictures3{
+.headline{
+    margin-left: 29pc;
+    text-align: center;
+ } 
+ h1{
+    font-size: 48px;
+ }
+.pic-3{
+    position: relative;
+.ustyazi-1, .ustyazi-2, .ustyazi-3{
+       position: absolute;
+       bottom: 40px;
+       font-size: 15px;
+       color: #fff;
+       font-family: 'Trade Gothic LT Std', sans-serif;
+       bottom: 80px;
+    }
+    .ustyazi-1{
+        left:155px;
+    }
+    .ustyazi-2{
+        left:47%;
+    }
+    .ustyazi-3{
+        right:220px ;
+    }
+.layer1,.layer2,.layer3{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Avant Garde Bold";
+    bottom:30px;
+    z-index: 1;
+}
+.layer1{
+    left: 30px; 
+}
+.layer2{
+    left: 36%
+}
+.layer3{
+    right: 50px;
+}
+    
+.pc1{
+    background-image: url(images/01-min.jpg);
+    position: relative;
+    opacity: 0.6;
+}
+ .pc1:hover{
+    background-image: url(images/01-min.jpg);
+    position: relative;
+    opacity: 0.6;
+    background-size:1300px 874px;
+ }
+ .pc2{
+    background-image: url(images/03-min.jpg);
+    position: relative;
+    opacity: 0.6;
+    
+ }
+ .pc2:hover{
+    background-image: url(images/03-min.jpg);
+    position: relative;
+    opacity: 0.6;
+    background-size:1300px 874px;
+ }
+ .pc3{
+    background-image: url(images/05-min.jpg);
+    position: relative;
+    opacity: 0.6;
+ }
+ .pc3:hover{
+    background-image: url(images/05-min.jpg);
+    position: relative;
+    opacity: 0.6;
+    background-size:1300px 874px;
+ }
+}
+}
+.footer{
+    height: 339px;
+    display: flex;
+    align-items: center;
+    background-color: #1B1B1B;
+    justify-content: space-around;
+.icons{
+    display: flex;
+    gap: 7px;
+    width: 379px;
+    height: 48px;
+    align-items: center;
+.fa-facebook-f{
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #e9204f;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+    transition:0.2 ;
+   -webkit-transition:0.2s ;
+   -moz-transition:0.2 ;
+   -ms-transition:0.2 ;
+   -o-transition:0.2 ;
+}
+.fa-facebook-f:hover{
+    margin-bottom: 10px;
+    color: #e9204f;
+}
+.fa-twitter{
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #e9204f;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 10px;
+    transition:0.2s ;
+    -webkit-transition:0.2s ;
+    -moz-transition:0.2s ;
+    -ms-transition:0.2s ;
+    -o-transition:0.2s ;
+}
+.fa-twitter:hover{
+    margin-bottom: 10px;
+    color: #e9204f;
+}
+.fa-instagram{
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #e9204f;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 12px;
+    transition: 700ms;
+    transition:0.2s;
+    -webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -ms-transition:0.2s;
+    -o-transition:0.2s;
+}
+.fa-instagram:hover{
+    margin-bottom: 10px;
+    color: #e9204f;
+}
+.fa-github{
+   border-style: solid;
+   border-width: 2px 2px 2px 2px;
+   border-color: #e9204f;
+   border-radius: 50%;
+   color: #fff;
+   font-size: 20px;
+   padding: 11px 11px;
+   transition:0.2s ;
+   -webkit-transition:0.2s ;
+   -moz-transition:0.2s ;
+   -ms-transition:0.2s ;
+   -o-transition:0.2s ;
+}
+.fa-github:hover{
+    margin-bottom: 10px;
+    color: #e9204f;
+}
+}
+.middletext{
+width: 379px;
+color: #fff;
+font-size: 48px;
+font-family: "Avant Garde Bold";
+}
+.button{
+    width: 214px;
+    height: 59px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 20px 46px;
+    border: #e9204f solid 2px;
+    position: relative;
+}
+.button::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 59px;
+    background-color: #e9204f;
+    opacity: 0.6;
+    bottom: -1px;
+    left: -1px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.button:hover::before{
+    width: 214px;
+}
+}
+.endline{
+    background-color: #161616;
+    height: 137px;
+    padding: 40px 30px;
+    display: flex;
+    justify-content:space-around;
+.endline-1,.endline-2{
+    width: 570px;
+    text-align: center;
+    background-color: #161616;
+    
+h3{
+    color: #fff;
+    font-family: "Avant Garde Bold";
+    font-size: 20px;
+    cursor: pointer;
+}
+p{
+    color: #fff;
+    font-family: 'Trade Gothic LT Std', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+}
+.endline-1{
+h3:hover{ color: #e9204f;}
+p:hover{
+    color: #e9204f;
+}
+}
+.endline-2{
+    h3:hover{ color: #e9204f;}
+    p:hover{
+        color: #e9204f;
+    }
+    }
+}
+.elementorend{
+    height: 85px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+p{
+    color: #747474;
+    font-size: 14px;
+    font-family: 'Trade Gothic LT Std', sans-serif;
+}
+div{
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Trade Gothic LT Std', sans-serif;
+}
+span:hover{
+    color: #e9204f;
+    text-decoration: underline;
+    cursor: pointer;
+}
+}
+
+
+
+
