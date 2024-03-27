@@ -7,6 +7,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'AvantGarde Bk BT', sans-serif;
 }
 body{
     background-color:#101010;
@@ -35,6 +36,7 @@ body{
   color: #fff;
   list-style: none;
   font-family: "Avant Garde Bold";
+  font-weight: 600;
   font-size: 16px;
 .u-line{
     position: relative;
@@ -86,7 +88,7 @@ img{
 h1{
     font-size:78px;
     color: #fff;
-    font-family: "Avant Garde Bold";
+    font-family: 'AvantGarde Bk BT', sans-serif;
     font-weight: 800;
     line-height: 80px;
     margin-bottom: 60px;
@@ -103,6 +105,7 @@ h1{
     background-color: transparent;
     font-size: 16px;
     font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
     cursor: pointer;  
 }
 .button::before{
@@ -167,7 +170,7 @@ i{
 h3{
     font-size: 24px;
     color: #fff;
-    font-family: "Avant Garde Bold";
+    font-family: 'AvantGarde Bk BT', sans-serif;
     padding-left:40px ;
 }
 p{
@@ -198,7 +201,7 @@ hr{
     h3{
         font-size: 24px;
         color: #fff;
-        font-family: "Avant Garde Bold";
+        font-family: 'AvantGarde Bk BT', sans-serif;
        
     }
     p{
@@ -231,7 +234,7 @@ hr{
     h3{
         font-size: 24px;
         color: #fff;
-        font-family: "Avant Garde Bold";
+        font-family: 'AvantGarde Bk BT', sans-serif;
        
     }
     p{
@@ -273,7 +276,7 @@ height: 2px;
 h2{
     font-size: 48px;
     color: #fff;
-    font-family: "Avant Garde Bold";
+    font-family: 'AvantGarde Bk BT', sans-serif;
     padding-top: 35px;
 }
 h3{
@@ -348,7 +351,7 @@ justify-content: space-between;
 h1{
     color: #fff;
     font-size: 48px;
-    font-family: "Avant Garde Bold";
+    font-family: 'AvantGarde Bk BT', sans-serif;
     margin-top: 30px;
   
 }
@@ -408,7 +411,8 @@ h2{
     background-size: 1004px 663px;
     transition:700ms;
     color: transparent;
-    font-family: "Avant Garde Bold";
+    font-family: 'AvantGarde Bk BT', sans-serif;
+    font-weight: 600;
     font-size: 35px;
     padding-left: 110px;
     padding-top: 250px;
@@ -431,7 +435,8 @@ h2{
     background-size: 1004px 663px;
     transition:700ms;
     color: transparent;
-    font-family: "Avant Garde Bold";
+    font-family: 'AvantGarde Bk BT', sans-serif;
+    font-weight: 600;
     font-size: 35px;
     padding-top: 250px;
     padding-left: 155px;
@@ -453,7 +458,8 @@ h2{
     background-size: 1004px 663px;
     transition:700ms;
     color: transparent;
-    font-family: "Avant Garde Bold";
+    font-family: 'AvantGarde Bk BT', sans-serif;
+    font-weight: 600;
     font-size: 35px;
     padding-top: 250px;
     padding-left: 80px;
@@ -503,7 +509,8 @@ i:hover{
     position: absolute;
     font-size: 20px;
     color: #fff;
-    font-family: "Avant Garde Bold";
+    font-family: 'AvantGarde Bk BT', sans-serif;
+    font-weight: 600;
     z-index: 1;
 }
 .uptext1{
@@ -585,7 +592,7 @@ i:hover{
     
 h1{
     font-size: 22px;
-    font-family: "Avant Garde Bold";
+    font-family: 'AvantGarde Bk BT', sans-serif;
     margin-bottom: 20px;
 }
 p{
@@ -679,6 +686,7 @@ h2{
        font-size: 15px;
        color: #fff;
        font-family: 'Trade Gothic LT Std', sans-serif;
+       font-weight: 600;
        bottom: 80px;
     }
     .ustyazi-1{
@@ -694,7 +702,8 @@ h2{
     position: absolute;
     font-size: 20px;
     color: #fff;
-    font-family: "Avant Garde Bold";
+    font-family: 'AvantGarde Bk BT', sans-serif;
+    font-weight: 600;
     bottom:30px;
     z-index: 1;
 }
@@ -834,7 +843,7 @@ h2{
 width: 379px;
 color: #fff;
 font-size: 48px;
-font-family: "Avant Garde Bold";
+font-family: 'AvantGarde Bk BT', sans-serif;
 }
 .button{
     width: 214px;
@@ -878,7 +887,7 @@ font-family: "Avant Garde Bold";
     
 h3{
     color: #fff;
-    font-family: "Avant Garde Bold";
+    font-family: 'AvantGarde Bk BT', sans-serif;
     font-size: 20px;
     cursor: pointer;
 }
